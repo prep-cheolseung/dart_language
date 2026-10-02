@@ -1,7 +1,7 @@
 void main() {
-  final String name = '블랙핑크';
+  final String name = 'BlackPink';
   name = 'BTS';   // final로 선언한 변수는 선언 후 값을 변경할 수 없음
 
   const String name2 = 'BTS';
-  name2 = '블랙핑크';   // const로 선언한 변수는 선언 후 값을 변경할 수 없음
+  name2 = 'BlackPink';   // const로 선언한 변수는 선언 후 값을 변경할 수 없음
 }
