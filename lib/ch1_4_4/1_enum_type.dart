@@ -5,11 +5,11 @@ enum Status {
 }
 
 void main() {
-  Status status = Status.approved;
+  Status status1 = Status.approved;
   Status status2 = Status.pending;
   Status status3 = Status.rejected;
 
-  print(status);   // Status.approved
+  print(status1);   // Status.approved
   print(status2);   // Status.pending
   print(status3);   // Status.rejected
 }
