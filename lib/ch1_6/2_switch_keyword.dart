@@ -22,6 +22,6 @@ void main() {
       print('알 수 없는 상태입니다.');
   }
 
-  // Enum의 values는 Enum의 모든 값을 리스트로 반환
+  // Enum의 모든 값을 리스트로 반환
   print(Status.values);
 }
