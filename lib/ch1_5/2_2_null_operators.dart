@@ -1,5 +1,5 @@
 void main() {
-  double? number;   // 자동으로 null값 지정
+  double? number;   // 자동으로 null 값 지정
   print(number);
 
   number ??= 1;   // ??를 사용하면 기존 값이 null일 때만 저장
