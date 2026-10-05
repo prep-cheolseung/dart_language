@@ -1,19 +1,15 @@
-class Idol {
+// abstract 키워드를 사용해 추상 클래스 지정
+abstract class Idol {
   final String name;
   final int membersCount;
 
-  Idol(this.name, this.membersCount);
+  Idol(this.name, this.membersCount);   // 생성자 선언
 
-  void sayName() {
-    print('I am ${this.name}.');
-  }
-
-  void sayMembersCount() {
-    print('${this.name} has ${this.membersCount} members.');
-  }
+  void sayName();   // 추상 메서드 선언
+  void sayMembersCount();   // 추상 메서드 선언
 }
 
-// implements 키워드를 사용하면 원하는 클래스를 인터페이스로 사용 가능
+// implements 키워드를 사용해 추상 클래스를 구현하는 클래스
 class GirlGroup implements Idol {
   final String name;
   final int membersCount;

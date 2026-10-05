@@ -14,7 +14,7 @@ class Idol {
 }
 
 mixin IdolSingMixin on Idol {
-  void sing(){
+  void sing() {
     print('${this.name} is singing.');
   }
 }
@@ -22,9 +22,9 @@ mixin IdolSingMixin on Idol {
 // 믹스인을 적용할 때는 with 키워드 사용
 class BoyGroup extends Idol with IdolSingMixin {
   BoyGroup(
-      super.name,
-      super.membersCount
-      );
+    super.name,
+    super.membersCount
+  );
 
   void sayMale() {
     print('I am a male idol.');
