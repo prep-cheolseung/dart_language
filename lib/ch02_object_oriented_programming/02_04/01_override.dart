@@ -18,7 +18,7 @@ class GirlGroup extends Idol {
   // 다음처럼 생성자의 매개변수로 직접 super 키워드를 사용해도 됨
   GirlGroup(
     super.name,
-    super.membersCount,
+    super.membersCount
   );
 
   // override 키워드를 사용해 오버라이드

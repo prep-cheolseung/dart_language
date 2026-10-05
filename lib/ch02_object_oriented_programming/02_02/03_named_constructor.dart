@@ -28,7 +28,7 @@ void main() {
   // fromMap이라는 네임드 생성자 사용
   Idol bts = Idol.fromMap({
     'name': 'BTS',
-    'membersCount': 7,
+    'membersCount': 7
   });
   bts.sayName();
 }
